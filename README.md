@@ -10,9 +10,13 @@ It solves the problem of students and staff wasting time navigating scattered PD
 ## ✨ Features
 
 **Instant Answers:** Get real-time answers to questions about FAS degree programs, including details like **lecturer, credits, prerequisites, resources, objective, and title**
+
 **Zero Database Architecture:** Utilizes **"Context Injection"** to eliminate the need for traditional database setup, management, and complex query logic, resulting in faster performance and simpler maintenance
+
 **Factual Accuracy:** Enforces strict **AI Guardrails** (`SYSTEM_PROMPT`) to ensure the model *only* reasons over the provided course data, preventing hallucination and guaranteeing accuracy
+
 **High Efficiency:** Eliminates network latency associated with database calls, ensuring speed
+
 **Intuitive UI:** Built with **Streamlit** for rapid UI development and a clean, high-friction-free user experience
 
 
@@ -30,11 +34,16 @@ The CRL's core logic is its **database-less architecture** built on Context Inje
 
 The Course Resource Locator is built with a modern, efficient toolset:
 
-**Language:** Python 3.13.2 [cite: 81, 134]
+**Language:** Python 3.13.2
+
 **AI Service:** Google **Gemini 2.5 Flash** via the Google Gemini API
+
 **Web Framework:** **Streamlit** (for rapid UI development and deployment)
+
 **Environment Management:** `python-dotenv` (for secure API key handling)
+
 **Development:** Visual Studio Code / Google Colab
+
 
 ### 📊 Cost & Performance
 
@@ -57,12 +66,8 @@ The application is designed to be highly efficient and cost-effective
 | **User Question** | **System Answer (Sourced from Injected Data)** |
 | :--- | :--- |
 | How many credits for Industrial Training | There are two courses titled 'Industrial Training'. Both CSH4226 and IT4226 have 6 credits. |
-| Who is the lecturer for CSH4112? | [Factual Answer based on injected data] |
+| Who is the lecturer for CSH4112? | Dr. Kirushanth |
 
 ## 👨‍💻 Built By
 
-**LM. [cite_start]ILHAM** for the course **CSH 4112**[cite: 3].
-
-***
-
-Would you like to draft the installation steps for the "Getting Started" section?
+**LM. ILHAM** for the course **CSH 4112**.
