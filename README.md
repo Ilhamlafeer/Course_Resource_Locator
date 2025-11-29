@@ -50,6 +50,7 @@ The Course Resource Locator is built with a modern, efficient toolset:
 The application is designed to be highly efficient and cost-effective
 
 **Cost:** Entirely **Free** (using the no-credit-card Gemini API tier)
+
 **Performance:** Capable of handling **15 Requests Per Minute** and **1,500 Requests Per Day**
 
 
